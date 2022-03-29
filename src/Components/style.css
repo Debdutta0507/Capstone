@@ -1,0 +1,29 @@
+nav.navbar.navbar-expand-md.navbar-dark.bg-primary.fixed-top{
+    background-color: #b71c79 !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white !important;
+
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    background-color: #800d528c;
+}
+.navbar-dark .navbar-brand {
+    font-weight: 700;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace !important;
+}
+@media screen and (max-width: 992px){
+    .navbar-dark .navbar-brand {
+        font-weight: 600;
+        font-size: 20px;
+        font-family:'Courier New', Courier, monospace !important;
+    }
+}
+@media screen and (max-width: 361px){
+    .navbar-dark .navbar-brand {
+        font-weight: 600;
+        font-size: 17px;
+        font-family:'Courier New', Courier, monospace !important;
+    }
+}

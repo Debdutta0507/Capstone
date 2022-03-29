@@ -1,0 +1,24 @@
+.center3{
+    margin-left: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .card-header:first-child{
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 600;
+      background-color:rgb(18, 138, 194);
+      color: white;
+      font-size: 20px;
+  }
+  .card-title{
+      text-align: center;
+  }
+  .card-footer:last-child{
+      text-align: center;
+      color: black;
+      font-size: 17px;
+      background-color: tan;
+  }

@@ -1,0 +1,41 @@
+.card1{ 
+
+    margin-top:120px; 
+
+    border:none; 
+
+    width:500px; 
+
+    padding:40px; 
+
+    position:absolute; 
+
+    top:60%; 
+
+    left:50%; 
+
+    transform:translate(-50%,-50%); 
+
+    background:rgb(18, 107, 172); 
+
+    background:linear-gradient(90deg,rgb(200, 14, 154) 0%, rgb(70, 29, 151)100%); 
+
+    overflow-x: hidden; 
+
+} 
+
+.card h1,h6{ 
+
+    color:#fff; 
+
+} 
+.register1{
+    background-color: aqua;
+    margin-top: 50em;
+}
+
+label{ 
+
+    color:#E5E7E9; 
+
+} 

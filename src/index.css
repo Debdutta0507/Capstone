@@ -1,0 +1,9 @@
+body{
+  
+    height: 200px;
+    background-image: linear-gradient(to right, rgba(150, 17, 59, 0.87), rgba(172, 27, 216, 0.541));
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
