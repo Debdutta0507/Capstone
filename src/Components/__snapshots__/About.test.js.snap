@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+Array [
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="carousel slide"
+      onKeyDown={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+    >
+      <div
+        className="carousel-indicators"
+      >
+        <button
+          aria-current={true}
+          aria-label="Slide 1"
+          className="active"
+          data-bs-target=""
+          onClick={[Function]}
+          type="button"
+        />
+        <button
+          aria-current={false}
+          aria-label="Slide 2"
+          data-bs-target=""
+          onClick={[Function]}
+          type="button"
+        />
+        <button
+          aria-current={false}
+          aria-label="Slide 3"
+          data-bs-target=""
+          onClick={[Function]}
+          type="button"
+        />
+      </div>
+      <div
+        className="carousel-inner"
+      >
+        <div
+          className="active carousel-item"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="..."
+            className="d-block w-100"
+            src="assets/img/about1.jpg"
+            style={
+              Object {
+                "height": "557px",
+              }
+            }
+          />
+          <div
+            className="carousel-caption"
+          />
+        </div>
+        <div
+          className="carousel-item"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="..."
+            className="d-block w-100"
+            src="assets/img/about2.jpg"
+            style={
+              Object {
+                "height": "557px",
+              }
+            }
+          />
+          <div
+            className="carousel-caption"
+          />
+        </div>
+        <div
+          className="carousel-item"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        >
+          <img
+            alt="..."
+            className="d-block w-100"
+            src="assets/img/about3.jpg"
+            style={
+              Object {
+                "height": "557px",
+              }
+            }
+          />
+          <div
+            className="carousel-caption"
+          />
+        </div>
+      </div>
+      <a
+        className="carousel-control-prev"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <span
+          aria-hidden="true"
+          className="carousel-control-prev-icon"
+        />
+        <span
+          className="visually-hidden"
+        >
+          Previous
+        </span>
+      </a>
+      <a
+        className="carousel-control-next"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <span
+          aria-hidden="true"
+          className="carousel-control-next-icon"
+        />
+        <span
+          className="visually-hidden"
+        >
+          Next
+        </span>
+      </a>
+    </div>
+  </div>,
+  <div
+    id="contact"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <div
+            id="contact-left"
+          >
+            <h3>
+              Product Inventory Application
+            </h3>
+            <p>
+              We Believe in 
+              <strong>
+                Simple
+              </strong>
+              ,
+              <strong>
+                Clean
+              </strong>
+               and 
+              <strong>
+                Modern
+              </strong>
+               Design standards with responsive approach.Browse the amazing work of our company
+            </p>
+            <div
+              id="contact-info"
+            >
+              <address>
+                <strong>
+                  Headquaters:
+                </strong>
+                <p>
+                  Railpar K.T Road Jahangiri Mohalla Asansol-2 West-Bengal India
+                </p>
+              </address>
+              <div
+                id="phone-fax-email"
+              >
+                <p>
+                  <strong>
+                    Phone:
+                  </strong>
+                  <span>
+                    +91-7908310264
+                  </span>
+                  <br />
+                  <strong>
+                    Fax:
+                  </strong>
+                  <span>
+                    +91-7908310264
+                  </span>
+                  <br />
+                  <strong>
+                    E-mail:
+                  </strong>
+                  <span>
+                    mansoor.ali4@wipro.com
+                  </span>
+                </p>
+              </div>
+            </div>
+            <ul
+              className="social-list"
+            >
+              <li>
+                <i
+                  className="fa fa-facebook"
+                />
+              </li>
+              <li>
+                <i
+                  className="fa fa-twitter"
+                />
+              </li>
+              <li>
+                <i
+                  className="fa fa-google-plus"
+                />
+              </li>
+              <li>
+                <i
+                  className="fa fa-youtube-play"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <div
+            id="contact-right"
+          >
+            <h3>
+              Contact-Us
+            </h3>
+            <form>
+              <input
+                className="form-control"
+                name="full name"
+                placeholder="full name"
+                type="text"
+              />
+              <input
+                className="form-control"
+                name="email"
+                placeholder="Email Address"
+                type="text"
+              />
+              <textarea
+                className="form-control"
+                name="message"
+                placeholder="Message..."
+                rows="5"
+              />
+              <div
+                id="send-btn"
+              >
+                <button
+                  className="btn btn-lg btn-general btn-primary"
+                  disabled={true}
+                >
+                  SEND
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <br />,
+  <br />,
+  <br />,
+]
+`;

@@ -36,8 +36,8 @@ export default function Navbar1() {
               <Nav.Link as={Link} to="/about" onClick={() => setExp(false)}><i className="fa fa-id-badge" style={{ fontSize: '20px' }}></i> About-Us</Nav.Link>
 
 
-              <Nav.Link as={Link} to="/prodLog" onClick={() => setExp(false)}><i className="fa fa-user-circle" style={{ fontSize: '20px' }}></i> ProdLog</Nav.Link>
-              <NavDropdown title="Dropdown"
+              <Nav.Link as={Link} to="/prodLog" onClick={() => setExp(false)}><i className="fa fa-user-circle" style={{ fontSize: '20px' }}></i> ProdManagement</Nav.Link>
+              <NavDropdown title="Contents"
 
               >
 
@@ -81,19 +81,11 @@ export default function Navbar1() {
               <Nav.Link as={Link} to="/" onClick={() => setExp(false)}><i className="fa fa-home" style={{ fontSize: '20px' }}></i> Home</Nav.Link>
               <Nav.Link as={Link} to="/about" onClick={() => setExp(false)}><i className="fa fa-id-badge" style={{ fontSize: '20px' }}></i> About-Us</Nav.Link>
               <Nav.Link as={Link} to="/signup" onClick={() => setExp(false)}><i className="fa fa-user-plus" style={{ fontSize: '20px' }}></i> Sign-Up</Nav.Link>
-
+              <Nav.Link as={Link} to="/login" onClick={() => setExp(false)}><i className="fa fa-user-plus" style={{ fontSize: '20px' }}></i> Login</Nav.Link>
+              <Nav.Link as={Link} to="/prodLog" onClick={() => setExp(false)}><i className="fa fa-user-circle" style={{ fontSize: '20px' }}></i> ProdManager</Nav.Link>
 
             </Nav>
-            <Nav>
-              <NavDropdown title="Dropdown"
 
-              >
-
-                <NavDropdown.Item style={{ backgroundColor: "purple" }}><Nav.Link as={Link} to="/prodLog" onClick={() => setExp(false)}><i className="fa fa-user-circle" style={{ fontSize: '20px' }}></i> ProdLog</Nav.Link></NavDropdown.Item>
-                <NavDropdown.Item style={{ backgroundColor: "purple" }} ><Nav.Link as={Link} to="/cust" onClick={() => setExp(false)}><i className="fa fa-pie-chart" style={{ fontSize: '20px' }}></i>Charts</Nav.Link></NavDropdown.Item>
-
-              </NavDropdown>
-            </Nav>
 
           </Navbar.Collapse>
 
